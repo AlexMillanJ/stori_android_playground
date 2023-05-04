@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+    * Color Palette:
+    *
+    * The Color Palette to be use inside the Android project, here you can find all the colors
+    * that you will need when creating components for the UI and the colors for the base theme.
+    *
+    * Please you do not add colors outside this file, here is where all the System UI Colors will be
+    * manage, in this way we avoid duplicating or creating different objects for the same values.
+    *
+    * If you need a color that is not in this file, please create it accordingly to the UI system,
+    * name it as it is in the Figma where you took it. If the color is not named, please reach out
+    * to the UX designer who created it and ask him to give it a name.
+    -->
+
+<resources>
+
+    // Super App Colors
+    <color name="super_app_900_primary">#006597</color>
+    <color name="super_app_800">#0E85B8</color>
+    <color name="super_app_700">#0F96CB</color>
+    <color name="super_app_600">#1CA9DE</color>
+    <color name="super_app_500">#25B8ED</color>
+    <color name="super_app_400_secondary">#3FC3EE</color>
+    <color name="super_app_300">#5ECEEF</color>
+    <color name="super_app_200">#89DCF3</color>
+    <color name="super_app_100">#B7EAF7</color>
+    <color name="super_app_">#E3F7FC</color>
+
+    // Stori Colors
+    <color name="stori_900">#006359</color>
+    <color name="stori_800">#008079</color>
+    <color name="stori_700_primary">#009089</color>
+    <color name="stori_600">#00A19C</color>
+    <color name="stori_500">#00AFAB</color>
+    <color name="stori_400">#00BDBC</color>
+    <color name="stori_300_secondary">#05CACA</color>
+    <color name="stori_200">#73DADB</color>
+    <color name="stori_100">#AEE8E9</color>
+    <color name="stori_50">#DFF6F7</color>
+
+    // Turbo Colors
+    <color name="turbo_primary_900">#830050</color>
+    <color name="turbo_800">#95065D</color>
+    <color name="turbo_700">#B30770</color>
+    <color name="turbo_600">#D80987</color>
+    <color name="turbo_500">#F51A9F</color>
+    <color name="turbo_400_primary">#F74FB5</color>
+    <color name="turbo_300">#F984CB</color>
+    <color name="turbo_200">#FCC2E5</color>
+    <color name="turbo_100">#FFE5F5</color>
+    <color name="turbo_50">#FFF8FC</color>
+
+    // Gray Colors
+    <color name="gray_900_black">#1E1E20</color>
+    <color name="gray_800">#3F3E41</color>
+    <color name="gray_700">#5E5D60</color>
+    <color name="gray_600">#727173</color>
+    <color name="gray_500">#9A9A9C</color>
+    <color name="gray_400">#BAB9BC</color>
+    <color name="gray_300">#DDDCDF</color>
+    <color name="gray_200">#ECEBEE</color>
+    <color name="gray_100">#F4F3F6</color>
+    <color name="gray_50">#FAF9FC</color>
+    <color name="white">#FFFFFF</color>
+
+    // Alerts
+    <color name="alert_success">#35951B</color>
+    <color name="alert_info">#3A46F0</color>
+    <color name="alert_warning">#D29318</color>
+    <color name="alert_danger">#E42F4F</color>
+
+    // Backgrounds
+    <color name="background_light">#FAF9FC</color>
+    <color name="background_success">#EBFAEE</color>
+    <color name="background_info">#E8EEF9</color>
+    <color name="background_warning">#FFF6D8</color>
+    <color name="background_danger">#FDEBEB</color>
+
+    // Brand Colors
+    <color name="bahama_blue">#006497</color>
+    <color name="bright_turquoise">#05CACA</color>
+
+    // Custom Colors
+    <color name="super_app_700_ripple">#800F96CB</color>
+</resources>
