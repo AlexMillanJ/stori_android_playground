@@ -1,10 +1,11 @@
 package ai.powerup.stori.module_test_ui.home.presentation.ui
 
+import ai.powerup.stori.basedesign.compose.basecomponents.ButtonText
 import ai.powerup.stori.basedesign.compose.basecomponents.SetSystemBarsColor
-import ai.powerup.stori.basedesign.compose.storicomponents.StoriPrimaryButton
+import ai.powerup.stori.basedesign.compose.theme.GeneralGray900Black
 import ai.powerup.stori.basedesign.compose.theme.White
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -28,17 +29,16 @@ fun HomeScreen(
     Scaffold(
         modifier = Modifier.navigationBarsPadding()
     ) {
-        Box(modifier = Modifier
-            .fillMaxSize()
-            .background(White)
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .navigationBarsPadding()
+                .background(GeneralGray900Black)
+
         ) {
-            StoriPrimaryButton(
-                modifier = Modifier
-                    .align(Alignment.Center)
-                    .fillMaxWidth()
-                    .height(45.dp)
-                    .padding(horizontal = 16.dp),
-                text = "Prueba de boton"
+            ButtonText(
+                modifier = Modifier.fillMaxWidth(),
+                text = "Prueba de texto"
             ) {}
         }
     }

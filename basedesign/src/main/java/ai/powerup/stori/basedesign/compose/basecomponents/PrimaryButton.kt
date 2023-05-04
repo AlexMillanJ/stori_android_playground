@@ -8,18 +8,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
-import androidx.compose.ui.text.TextStyle
 
 @Composable
 fun PrimaryButton(
     modifier: Modifier = Modifier,
     text: String,
-    textStyle: TextStyle = Typography.button,
     enableIcon: Boolean = false,
     contentColor: Color = White,
-    disableContentColor: Color = Gray400,
+    disableContentColor: Color = GeneralGray400,
     backgroundColor: Color = Stori700Primary,
-    disableBackgroundColor: Color = Gray200,
+    disableBackgroundColor: Color = GeneralGray200,
     enabled: Boolean = true,
     elevation: ButtonElevation? = null,
     shape: Shape = Shapes.medium,
@@ -43,7 +41,6 @@ fun PrimaryButton(
     ) {
         ButtonContent(
             text = text,
-            textStyle = textStyle,
             contentColor = contentColor,
             enableIcon = enableIcon
         )

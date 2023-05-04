@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.othercomponents
 
-import ai.powerup.stori.basedesign.compose.basecomponents.BaseTextButton
+import ai.powerup.stori.basedesign.compose.basecomponents.ButtonText
 import ai.powerup.stori.basedesign.compose.basecomponents.PrimaryButton
 import ai.powerup.stori.basedesign.compose.basecomponents.SetSystemBarsColor
 import ai.powerup.stori.basedesign.compose.theme.*
@@ -53,7 +53,7 @@ fun BaseBottomSheetContent(
                 .fillMaxWidth()
                 .align(Alignment.CenterHorizontally)
                 .clip(CircleShape)
-                .background(Gray200)
+                .background(GeneralGray200)
         )
 
         Spacer(modifier = Modifier.height(24.dp))
@@ -78,7 +78,7 @@ fun BaseBottomSheetContent(
 
         Text(
             text = message,
-            color = Gray900Black,
+            color = GeneralGray900Black,
             modifier = Modifier.fillMaxWidth(),
             textAlign = TextAlign.Center,
             style = Typography.body4()
@@ -109,7 +109,7 @@ private fun BottomSheetHeader(
         Text(
             modifier = Modifier.height(32.dp),
             text = title,
-            color = Gray900Black,
+            color = GeneralGray900Black,
             textAlign = TextAlign.Center,
             style = Typography.h3
         )
@@ -156,7 +156,7 @@ private fun BottomSheetButtons(
     if (secondaryBtnAction != null){
         Spacer(modifier = Modifier.height(8.dp))
 
-        BaseTextButton(
+        ButtonText(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(42.dp),

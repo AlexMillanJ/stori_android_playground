@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.basecomponents
 
-import ai.powerup.stori.basedesign.compose.theme.Gray900Black
+import ai.powerup.stori.basedesign.compose.theme.GeneralGray900Black
 import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
 import ai.powerup.stori.basedesign.compose.theme.Typography
 import ai.powerup.stori.basedesign.compose.theme.White
@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 fun Toolbar(
     modifier: Modifier = Modifier,
     text: String = "",
-    textColor: Color = Gray900Black,
+    textColor: Color = GeneralGray900Black,
     textStyle: TextStyle = Typography.subtitle2,
     leftIconResource: Int? = null,
     rightIconResource: Int? = null,

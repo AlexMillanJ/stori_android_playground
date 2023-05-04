@@ -1,12 +1,10 @@
 package ai.powerup.stori.platformbase.base
 
 import ai.powerup.stori.platformbase.common.utils.NetworkObserver
-import ai.powerup.stori.platformbase.storage.CacheUtmValues
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
-import javax.inject.Inject
 
 /**
  * Constructor example implementation
@@ -20,9 +18,6 @@ abstract class BaseActivity<VB: ViewBinding>(private val bindingFactory: (Layout
     //@Inject
     lateinit var networkObserver: NetworkObserver
 
-    @Inject
-    lateinit var cacheUtmValues: CacheUtmValues
-
     /**
      * LIFECYCLE FUNCTIONS
      */
@@ -33,7 +28,6 @@ abstract class BaseActivity<VB: ViewBinding>(private val bindingFactory: (Layout
         _binding = bindingFactory(layoutInflater)
         setContentView(requireNotNull(_binding?.root))
         initActivityView(savedInstanceState)
-        BaseSessionTimer.startTimer(activity = this)
     }
 
     protected abstract fun initActivityView(savedInstanceState: Bundle? = null)

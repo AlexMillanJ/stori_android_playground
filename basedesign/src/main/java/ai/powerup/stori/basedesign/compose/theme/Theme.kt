@@ -15,12 +15,12 @@ private val LightColorPalette = lightColors(
     primaryVariant = Stori600,
     secondary = Stori300Secondary,
     secondaryVariant = Stori100,
-    background = BackgroundLight,
+    background = GeneralBackgroundLight,
     surface = White,
     onPrimary = White,
-    onSecondary = Gray900Black,
-    onBackground = Gray900Black,
-    onSurface = Gray900Black,
+    onSecondary = GeneralGray900Black,
+    onBackground = GeneralGray900Black,
+    onSurface = GeneralGray900Black,
 )
 
 @Composable

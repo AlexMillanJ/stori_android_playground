@@ -17,9 +17,9 @@ fun SecondaryButton(
     text: String,
     textStyle: TextStyle = Typography.button,
     contentColor: Color = Stori700Primary,
-    disableContentColor: Color = Gray400,
+    disableContentColor: Color = GeneralGray400,
     border: BorderStroke = BorderStroke(1.dp, Stori700Primary),
-    disableBorder: BorderStroke = BorderStroke(1.dp, Gray400),
+    disableBorder: BorderStroke = BorderStroke(1.dp, GeneralGray400),
     enabled: Boolean = true,
     enableIcon: Boolean = false,
     elevation: ButtonElevation? = null,
@@ -44,7 +44,6 @@ fun SecondaryButton(
     ) {
         ButtonContent(
             text = text,
-            textStyle = textStyle,
             contentColor = contentColor,
             enableIcon = enableIcon
         )

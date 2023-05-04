@@ -14,7 +14,6 @@ abstract class BaseComponentActivity: ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         networkObserver = NetworkObserver(this)
-        BaseSessionTimer.startTimer(activity = this)
         setContent { SetScreenContent(savedInstanceState) }
     }
 

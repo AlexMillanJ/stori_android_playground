@@ -42,46 +42,46 @@ val Stori100 = Color(0xFFAEE8E9)
 val Stori50 = Color(0xFFDFF6F7)
 
 // Turbo Colors
-val TurboPrimary900 = Color(0xFF830050)
-val TurboPrimary800 = Color(0xFF95065D)
-val TurboPrimary700 = Color(0xFFB30770)
-val TurboPrimary600 = Color(0xFFD80987)
-val TurboPrimary500 = Color(0xFFF51A9F)
-val Turbo400Primary = Color(0xFFF74FB5)
-val TurboPrimary300 = Color(0xFFF984CB)
-val TurboPrimary200 = Color(0xFFFCC2E5)
-val TurboPrimary100 = Color(0xFFFFE5F5)
-val TurboPrimary50 = Color(0xFFFFF8FC)
+val SiAhorrosPrimary900 = Color(0xFF830050)
+val SiAhorrosPrimary800 = Color(0xFF95065D)
+val SiAhorrosPrimary700 = Color(0xFFB30770)
+val SiAhorrosPrimary600 = Color(0xFFD80987)
+val SiAhorrosPrimary500 = Color(0xFFF51A9F)
+val SiAhorros400Primary = Color(0xFFF74FB5)
+val SiAhorrosPrimary300 = Color(0xFFF984CB)
+val SiAhorrosPrimary200 = Color(0xFFFCC2E5)
+val SiAhorrosPrimary100 = Color(0xFFFFE5F5)
+val SiAhorrosPrimary50 = Color(0xFFFFF8FC)
 
 // Gray Colors
-val Gray900Black = Color(0xFF1E1E20)
-val Gray800 = Color(0xFF3F3E41)
-val Gray700 = Color(0xFF5E5D60)
-val Gray600 = Color(0xFF727173)
-val Gray500 = Color(0xFF9A9A9C)
-val Gray400 = Color(0xFFBAB9BC)
-val Gray300 = Color(0xFFDDDCDF)
-val Gray200 = Color(0xFFECEBEE)
-val Gray100 = Color(0xFFF4F3F6)
-val Gray50 = Color(0xFFFAF9FC)
+val GeneralGray900Black = Color(0xFF1E1E20)
+val GeneralGray800 = Color(0xFF3F3E41)
+val GeneralGray700 = Color(0xFF5E5D60)
+val GeneralGray600 = Color(0xFF727173)
+val GeneralGray500 = Color(0xFF9A9A9C)
+val GeneralGray400 = Color(0xFFBAB9BC)
+val GeneralGray300 = Color(0xFFDDDCDF)
+val GeneralGray200 = Color(0xFFECEBEE)
+val GeneralGray100 = Color(0xFFF4F3F6)
+val GeneralGray50 = Color(0xFFFAF9FC)
 
 // Alerts
-val AlertSuccess = Color(0xFF35951B)
-val AlertInfo = Color(0xFF3A46F0)
-val AlertWarning = Color(0xFFD29318)
-val AlertDanger = Color(0xFFE42F4F)
+val GeneralAlertsTextSuccess = Color(0xFF35951B)
+val GeneralAlertsTextInfo = Color(0xFF3A46F0)
+val GeneralAlertsTextWarning = Color(0xFFD29318)
+val GeneralAlertsTextDanger = Color(0xFFE42F4F)
 
-// Backgrounds
-val BackgroundLight = Color(0xFFFAF9FC)
-val BackgroundSuccess = Color(0xFFEBFAEE)
-val BackgroundInfo = Color(0xFFE8EEF9)
-val BackgroundWarning = Color(0xFFFFF6D8)
-val BackgroundDanger = Color(0xFFFDEBEB)
+// Alerts Backgrounds
+val GeneralBackgroundLight = Color(0xFFFAF9FC)
+val GeneralAlertsBackgroundSuccess = Color(0xFFEBFAEE)
+val GeneralAlertsBackgroundInfo = Color(0xFFE8EEF9)
+val GeneralAlertsBackgroundWarning = Color(0xFFFFF6D8)
+val GeneralAlertsBackgroundDanger = Color(0xFFFDEBEB)
 
 // Brand Colors
-val BahamaBlue = Color(0xFF006497)
-val BrightTurquoise = Color(0xFF05CACA)
-val MidnightBlue = Color(0xFF00316D)
+val BrandBrightTurquoise = Color(0xFF05CACA)
+val BrandBahamaBlue = Color(0xFF006497)
+val BrandMidnightBlue = Color(0xFF00316D)
 
 // White
 val White = Color(0xFFFFFFFF)
@@ -89,7 +89,7 @@ val White = Color(0xFFFFFFFF)
 // Black
 val Black = Color(0xFF000000)
 
-// Standard
+// Standard Colors
 val Transparent = Color.Transparent
 
 // No named colors

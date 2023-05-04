@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.Color
 @Composable
 fun BaseCheckbox(
     checkedColor: Color = Stori700Primary,
-    uncheckedColor: Color = Gray900Black,
+    uncheckedColor: Color = GeneralGray900Black,
     checkmarkColor: Color = White,
     disabledColor: Color = Stori100.copy(alpha = 0.9f),
     enabled: Boolean = true

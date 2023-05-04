@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.turbocomponents
 
-import ai.powerup.stori.basedesign.compose.basecomponents.BaseTextButton
-import ai.powerup.stori.basedesign.compose.theme.Turbo400Primary
+import ai.powerup.stori.basedesign.compose.basecomponents.ButtonText
+import ai.powerup.stori.basedesign.compose.theme.SiAhorros400Primary
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -15,10 +15,10 @@ fun TurboTextButton(
     enableIcon: Boolean = false,
     onClick: () -> Unit
 ){
-    BaseTextButton(
+    ButtonText(
         modifier = modifier.height(32.dp),
         text = text,
-        contentColor = Turbo400Primary,
+        contentColor = SiAhorros400Primary,
         enabled = enabled,
         enableIcon = enableIcon,
         onClick = onClick
