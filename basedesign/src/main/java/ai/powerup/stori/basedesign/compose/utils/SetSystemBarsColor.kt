@@ -1,4 +1,4 @@
-package ai.powerup.stori.basedesign.compose.basecomponents
+package ai.powerup.stori.basedesign.compose.utils
 
 import android.app.Activity
 import androidx.compose.runtime.Composable

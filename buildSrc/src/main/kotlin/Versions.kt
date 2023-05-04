@@ -51,13 +51,13 @@ object Versions {
          */
         const val compose = "1.1.1"
         const val compose_activity = "1.3.1"
-        const val compose_hilt_navigation = "1.0.0"
-        const val compose_lottie = "5.2.0"
-        const val compose_foundation = "1.2.0-beta02"
-        const val compose_navigation = "2.5.1"
+        const val compose_constraint = "2.1.4"
         const val compose_constraint_compose = "1.0.1"
         const val compose_constraint_core = "1.0.4"
-        const val compose_constraint = "2.1.4"
+        const val compose_foundation = "1.2.0-beta02"
+        const val compose_hilt_navigation = "1.0.0"
+        const val compose_lottie = "5.2.0"
+        const val compose_navigation = "2.5.1"
 
         /**
          * Coroutines

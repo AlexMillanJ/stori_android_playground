@@ -1,5 +1,6 @@
-package ai.powerup.stori.basedesign.compose.basecomponents
+package ai.powerup.stori.basedesign.compose.basecomponents.button
 
+import ai.powerup.stori.basedesign.compose.basecomponents.ButtonContent
 import ai.powerup.stori.basedesign.compose.theme.*
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*

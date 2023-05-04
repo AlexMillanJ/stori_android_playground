@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.storicomponents
 
-import ai.powerup.stori.basedesign.compose.basecomponents.PrimaryButton
+import ai.powerup.stori.basedesign.compose.basecomponents.button.PrimaryButton
 import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable

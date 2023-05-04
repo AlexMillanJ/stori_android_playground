@@ -1,8 +1,8 @@
 package ai.powerup.stori.basedesign.compose.othercomponents
 
-import ai.powerup.stori.basedesign.compose.basecomponents.ButtonText
-import ai.powerup.stori.basedesign.compose.basecomponents.PrimaryButton
-import ai.powerup.stori.basedesign.compose.basecomponents.SetSystemBarsColor
+import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonText
+import ai.powerup.stori.basedesign.compose.basecomponents.button.PrimaryButton
+import ai.powerup.stori.basedesign.compose.utils.SetSystemBarsColor
 import ai.powerup.stori.basedesign.compose.theme.*
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

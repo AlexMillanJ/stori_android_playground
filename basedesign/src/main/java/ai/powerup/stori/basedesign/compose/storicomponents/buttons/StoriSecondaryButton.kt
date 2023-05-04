@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.storicomponents
 
-import ai.powerup.stori.basedesign.compose.basecomponents.SecondaryButton
+import ai.powerup.stori.basedesign.compose.basecomponents.button.SecondaryButton
 import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.width

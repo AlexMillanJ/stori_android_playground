@@ -1,5 +1,6 @@
-package ai.powerup.stori.basedesign.compose.basecomponents
+package ai.powerup.stori.basedesign.compose.basecomponents.button
 
+import ai.powerup.stori.basedesign.compose.basecomponents.ButtonContent
 import ai.powerup.stori.basedesign.compose.theme.GeneralGray500
 import ai.powerup.stori.basedesign.compose.theme.SuperApp800
 import androidx.compose.foundation.layout.PaddingValues

@@ -18,8 +18,6 @@ class MainActivity: BaseComponentActivity() {
     @Composable
     override fun SetScreenContent(savedInstanceState: Bundle?) {
 
-        setFullScreen()
-
         val navController = rememberNavController()
 
         SuperAppTheme {
