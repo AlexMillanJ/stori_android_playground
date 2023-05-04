@@ -1,4 +1,4 @@
-package ai.powerup.stori.basedesign.compose.basecomponents
+package ai.powerup.stori.basedesign.compose.basecomponents.button
 
 import ai.powerup.stori.basedesign.R
 import ai.powerup.stori.basedesign.compose.theme.Typography

@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.siahorroscomponents.button
 
-import ai.powerup.stori.basedesign.compose.basecomponents.button.PrimaryButton
+import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonPrimary
 import ai.powerup.stori.basedesign.compose.theme.SiAhorros400Primary
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
@@ -15,7 +15,7 @@ fun TurboPrimaryButton(
     enableIcon: Boolean = false,
     onClick: () -> Unit
 ){
-    PrimaryButton(
+    ButtonPrimary(
         modifier = modifier.width(42.dp),
         text = text,
         enabled = enabled,

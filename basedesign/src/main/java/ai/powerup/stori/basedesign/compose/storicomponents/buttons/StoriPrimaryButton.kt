@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.storicomponents
 
-import ai.powerup.stori.basedesign.compose.basecomponents.button.PrimaryButton
+import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonPrimary
 import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
@@ -16,7 +16,7 @@ fun StoriPrimaryButton(
     enableIcon: Boolean = false,
     onClick: () -> Unit
 ){
-    PrimaryButton(
+    ButtonPrimary(
         modifier = modifier.width(42.dp),
         text = text,
         enabled = enabled,
