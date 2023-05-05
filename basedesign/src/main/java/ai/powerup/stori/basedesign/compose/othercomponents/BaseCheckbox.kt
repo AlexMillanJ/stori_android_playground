@@ -15,6 +15,7 @@ fun BaseCheckbox(
     enabled: Boolean = true
 ){
     var checkedState by remember { mutableStateOf(true) }
+
     Checkbox(
         colors = CheckboxDefaults.colors(
             checkedColor = checkedColor,

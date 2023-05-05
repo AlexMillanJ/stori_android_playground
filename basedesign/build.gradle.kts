@@ -70,7 +70,11 @@ dependencies {
      * Compose
      */
     implementation(Dependencies.compose_lottie)
+    implementation(Dependencies.compose_constraint)
+    implementation(Dependencies.compose_constraint_compose)
+    implementation(Dependencies.compose_constraint_core)
     implementation(Dependencies.compose_foundation)
+    implementation(Dependencies.compose_lottie)
     implementation(Dependencies.compose_material)
     implementation(Dependencies.compose_ui)
     implementation(Dependencies.compose_tooling_preview)
