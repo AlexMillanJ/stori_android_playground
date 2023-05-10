@@ -10,13 +10,13 @@ import androidx.compose.ui.text.SpanStyle
 @Composable
 fun String.styledText(
     normalSpanStyle: SpanStyle = SpanStyle().setStyle(
-        color = GeneralGray700, textStyle = Typography.body4()
+        color = general_gray_700, textStyle = Typography.body4()
     ),
     primarySpanStyle: SpanStyle = SpanStyle().setStyle(
-        color = Stori700Primary, textStyle = Typography.body3()
+        color = stori_700primary, textStyle = Typography.body3()
     ),
     secondarySpanStyle: SpanStyle = SpanStyle().setStyle(
-        color = GeneralGray700, textStyle = Typography.body3()
+        color = general_gray_700, textStyle = Typography.body3()
     ),
     primaryColorText: List<Int>? = null,
     secondaryColorText: List<Int>? = null

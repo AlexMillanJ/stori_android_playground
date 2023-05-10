@@ -16,10 +16,10 @@ fun SecondaryButton(
     modifier: Modifier = Modifier,
     text: String,
     textStyle: TextStyle = Typography.button,
-    contentColor: Color = Stori700Primary,
-    disableContentColor: Color = GeneralGray400,
-    border: BorderStroke = BorderStroke(1.dp, Stori700Primary),
-    disableBorder: BorderStroke = BorderStroke(1.dp, GeneralGray400),
+    contentColor: Color = stori_700primary,
+    disableContentColor: Color = general_gray_400,
+    border: BorderStroke = BorderStroke(1.dp, stori_700primary),
+    disableBorder: BorderStroke = BorderStroke(1.dp, general_gray_400),
     enabled: Boolean = true,
     enableIcon: Boolean = false,
     elevation: ButtonElevation? = null,
@@ -31,7 +31,7 @@ fun SecondaryButton(
     OutlinedButton(
         modifier = modifier,
         colors = ButtonDefaults.outlinedButtonColors(
-            backgroundColor = White.copy(alpha = 0.0F),
+            backgroundColor = white.copy(alpha = 0.0F),
             contentColor = contentColor,
             disabledContentColor = disableContentColor
         ),

@@ -18,9 +18,9 @@ fun OutlinedBox(
     modifier: Modifier = Modifier,
     shape: Shape = Shapes.medium,
     elevation: Dp = 1.dp,
-    contentColor: Color = Black,
-    backgroundColor: Color = Stori50,
-    borderColor: Color = Stori700Primary,
+    contentColor: Color = black,
+    backgroundColor: Color = stori_50,
+    borderColor: Color = stori_700primary,
     borderWidth: Dp = 1.dp,
     onClick: (() -> Unit)? = null,
     content: @Composable ()-> Unit

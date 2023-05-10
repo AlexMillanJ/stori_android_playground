@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.storicomponents
 
 import ai.powerup.stori.basedesign.compose.basecomponents.button.SecondaryButton
-import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
+import ai.powerup.stori.basedesign.compose.theme.stori_700primary
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
@@ -19,8 +19,8 @@ fun StoriSecondaryButton(
     SecondaryButton(
         modifier = modifier.width(42.dp),
         text = text,
-        contentColor = Stori700Primary,
-        border = BorderStroke(1.dp, Stori700Primary),
+        contentColor = stori_700primary,
+        border = BorderStroke(1.dp, stori_700primary),
         enabled = enabled,
         enableIcon = enableIcon,
         onClick = onClick

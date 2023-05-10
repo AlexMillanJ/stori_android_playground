@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.siahorroscomponents.button
 
 import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonText
-import ai.powerup.stori.basedesign.compose.theme.SiAhorros400Primary
+import ai.powerup.stori.basedesign.compose.theme.siahorros_secondary_smoke
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,7 +18,7 @@ fun TurboTextButton(
     ButtonText(
         modifier = modifier.height(32.dp),
         text = text,
-        contentColor = SiAhorros400Primary,
+        contentColor = siahorros_secondary_smoke,
         enabled = enabled,
         enableIcon = enableIcon,
         onClick = onClick

@@ -11,8 +11,6 @@ fun NavGraphBuilder.appGraph(
     val appNavigator = AppNavigator(navController)
 
     composable(route = Screen.Home.route) {
-        HomeScreen(
-            onSectionSelected = { appNavigator.navigateToSection() }
-        )
+        HomeScreen()
     }
 }

@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.othercomponents
 
-import ai.powerup.stori.basedesign.compose.theme.GeneralGray100
+import ai.powerup.stori.basedesign.compose.theme.general_gray_100
 import ai.powerup.stori.basedesign.compose.theme.Typography
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -29,7 +29,7 @@ fun GradientCircularProgressBar(
     animationDelay: Int = 0,
     maximumValue: Int = 4,
     minimumValue: Int = 0,
-    backgroundIndicatorColor: Color = GeneralGray100,
+    backgroundIndicatorColor: Color = general_gray_100,
     gradientColors: List<Color> = listOf(
         Color(0xFF016598),
         Color(0xFF00A19C),

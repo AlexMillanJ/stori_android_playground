@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.siahorroscomponents.button
 
 import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonPrimary
-import ai.powerup.stori.basedesign.compose.theme.SiAhorros400Primary
+import ai.powerup.stori.basedesign.compose.theme.siahorros_secondary_smoke
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -20,7 +20,7 @@ fun TurboPrimaryButton(
         text = text,
         enabled = enabled,
         enableIcon = enableIcon,
-        backgroundColor = SiAhorros400Primary,
+        backgroundColor = siahorros_secondary_smoke,
         onClick = onClick
     )
 }

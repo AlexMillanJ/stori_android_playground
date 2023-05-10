@@ -75,7 +75,7 @@ dependencies {
     implementation(Dependencies.compose_lottie)
     implementation(Dependencies.compose_material)
     implementation(Dependencies.compose_ui)
-    implementation(Dependencies.compose_tooling_preview)
+    //implementation(Dependencies.compose_tooling_preview)
 
     /**
      * Constraint

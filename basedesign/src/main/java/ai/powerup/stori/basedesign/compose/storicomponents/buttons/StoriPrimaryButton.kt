@@ -1,11 +1,10 @@
-package ai.powerup.stori.basedesign.compose.storicomponents
+package ai.powerup.stori.basedesign.compose.storicomponents.buttons
 
 import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonPrimary
-import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
+import ai.powerup.stori.basedesign.compose.theme.stori_700primary
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -15,19 +14,13 @@ fun StoriPrimaryButton(
     enabled: Boolean = true,
     enableIcon: Boolean = false,
     onClick: () -> Unit
-){
+) {
     ButtonPrimary(
         modifier = modifier.width(42.dp),
         text = text,
         enabled = enabled,
         enableIcon = enableIcon,
-        backgroundColor = Stori700Primary,
+        backgroundColor = stori_700primary,
         onClick = onClick
     )
-}
-
-@Preview
-@Composable
-private fun PreviewStoriPrimaryButton() {
-    StoriPrimaryButton(text = "Prueba") {}
 }

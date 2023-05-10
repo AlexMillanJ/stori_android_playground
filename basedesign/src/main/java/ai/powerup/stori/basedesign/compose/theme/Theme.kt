@@ -11,16 +11,16 @@ import androidx.compose.runtime.Composable
  */
 
 private val LightColorPalette = lightColors(
-    primary = Stori700Primary,
-    primaryVariant = Stori600,
-    secondary = Stori300Secondary,
-    secondaryVariant = Stori100,
-    background = GeneralBackgroundLight,
-    surface = White,
-    onPrimary = White,
-    onSecondary = GeneralGray900Black,
-    onBackground = GeneralGray900Black,
-    onSurface = GeneralGray900Black,
+    primary = stori_700primary,
+    primaryVariant = stori_600,
+    secondary = stori_300secondary,
+    secondaryVariant = stori_100,
+    background = general_background_light,
+    surface = white,
+    onPrimary = white,
+    onSecondary = general_gray_900_black,
+    onBackground = general_gray_900_black,
+    onSurface = general_gray_900_black,
 )
 
 @Composable

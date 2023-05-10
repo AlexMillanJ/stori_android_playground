@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.siahorroscomponents.button
 
 import ai.powerup.stori.basedesign.compose.basecomponents.button.SecondaryButton
-import ai.powerup.stori.basedesign.compose.theme.SiAhorros400Primary
+import ai.powerup.stori.basedesign.compose.theme.siahorros_secondary_smoke
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
@@ -19,8 +19,8 @@ fun TurboSecondaryButton(
     SecondaryButton(
         modifier = modifier.width(42.dp),
         text = text,
-        contentColor = SiAhorros400Primary,
-        border = BorderStroke(1.dp, SiAhorros400Primary),
+        contentColor = siahorros_secondary_smoke,
+        border = BorderStroke(1.dp, siahorros_secondary_smoke),
         enabled = enabled,
         enableIcon = enableIcon,
         onClick = onClick

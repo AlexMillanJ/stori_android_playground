@@ -78,7 +78,6 @@ dependencies {
      * Compose
      */
     implementation(Dependencies.compose_activity)
-    implementation(Dependencies.compose_constraint)
     implementation(Dependencies.compose_constraint_compose)
     implementation(Dependencies.compose_constraint_core)
     implementation(Dependencies.compose_foundation)
@@ -86,7 +85,7 @@ dependencies {
     implementation(Dependencies.compose_material)
     implementation(Dependencies.compose_navigation)
     implementation(Dependencies.compose_ui)
-    implementation(Dependencies.compose_tooling_preview)
+    //implementation(Dependencies.compose_tooling_preview)
 
     /**
      * Constraint

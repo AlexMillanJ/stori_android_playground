@@ -33,10 +33,9 @@ object Dependencies {
     /**
      * Compose
      */
-    const val compose_ui = "androidx.compose.ui:ui:${Versions.Libs.compose}"
-    const val compose_material = "androidx.compose.material:material:${Versions.Libs.compose}"
-    const val compose_tooling_preview =
-        "androidx.compose.ui:ui-tooling-preview:${Versions.Libs.compose}"
+    const val compose_ui = "androidx.compose.ui:ui:${Versions.Libs.compose_ui}"
+    const val compose_material =
+        "androidx.compose.material:material:${Versions.Libs.compose_material}"
     const val compose_activity =
         "androidx.activity:activity-compose:${Versions.Libs.compose_activity}"
     const val compose_foundation =
@@ -51,8 +50,6 @@ object Dependencies {
                 ":${Versions.Libs.compose_constraint_compose}"
     const val compose_constraint_core =
         "androidx.constraintlayout:constraintlayout-core:${Versions.Libs.compose_constraint_core}"
-    const val compose_constraint =
-        "androidx.constraintlayout:constraintlayout:${Versions.Libs.compose_constraint}"
 
     /**
      * Constraint

@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.extensions.modifier
 
-import ai.powerup.stori.basedesign.compose.theme.GeneralGray200
-import ai.powerup.stori.basedesign.compose.theme.GeneralGray300
+import ai.powerup.stori.basedesign.compose.theme.general_gray_200
+import ai.powerup.stori.basedesign.compose.theme.general_gray_300
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -44,9 +44,9 @@ fun Modifier.shimmerEffect(): Modifier = composed {
     background(
         brush = Brush.linearGradient(
             colors = listOf(
-                GeneralGray200,
-                GeneralGray300,
-                GeneralGray200,
+                general_gray_200,
+                general_gray_300,
+                general_gray_200,
             ),
             start = Offset(startOffsetX, 0f),
             end = Offset(startOffsetX + size.width.toFloat(), size.height.toFloat())

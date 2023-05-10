@@ -27,10 +27,10 @@ fun BaseBottomSheetContent(
     headIcon: Int? = null,
     mainBtnText: String = "",
     mainBtnAction: (() -> Unit)? = null,
-    mainBtnColor: Color = Stori700Primary,
+    mainBtnColor: Color = stori_700primary,
     secondaryBtnText: String = "",
     secondaryBtnAction: (() -> Unit)? = null,
-    secondaryBtnColor: Color = Stori700Primary
+    secondaryBtnColor: Color = stori_700primary
 ) {
     SetSystemBarsColor(
         statusBarColor = Color.Transparent,
@@ -52,7 +52,7 @@ fun BaseBottomSheetContent(
                 .fillMaxWidth()
                 .align(Alignment.CenterHorizontally)
                 .clip(CircleShape)
-                .background(GeneralGray200)
+                .background(general_gray_200)
         )
 
         Spacer(modifier = Modifier.height(24.dp))
@@ -77,7 +77,7 @@ fun BaseBottomSheetContent(
 
         Text(
             text = message,
-            color = GeneralGray900Black,
+            color = general_gray_900_black,
             modifier = Modifier.fillMaxWidth(),
             textAlign = TextAlign.Center,
             style = Typography.body4()
@@ -108,7 +108,7 @@ private fun BottomSheetHeader(
         Text(
             modifier = Modifier.height(32.dp),
             text = title,
-            color = GeneralGray900Black,
+            color = general_gray_900_black,
             textAlign = TextAlign.Center,
             style = Typography.h3
         )

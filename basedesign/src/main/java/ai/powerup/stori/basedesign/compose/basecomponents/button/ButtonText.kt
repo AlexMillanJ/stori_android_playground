@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.basecomponents.button
 
-import ai.powerup.stori.basedesign.compose.theme.GeneralGray500
-import ai.powerup.stori.basedesign.compose.theme.SuperApp800
+import ai.powerup.stori.basedesign.compose.theme.general_gray_500
+import ai.powerup.stori.basedesign.compose.theme.superapp_800
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.height
 import androidx.compose.material.ButtonDefaults
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 fun ButtonText(
     modifier: Modifier = Modifier,
     text: String,
-    contentColor: Color = SuperApp800,
+    contentColor: Color = superapp_800,
     enabled: Boolean = true,
     enableIcon: Boolean = false,
     onClick: () -> Unit
@@ -24,7 +24,7 @@ fun ButtonText(
         modifier = modifier.height(44.dp),
         colors = ButtonDefaults.textButtonColors(
             contentColor = contentColor,
-            disabledContentColor = GeneralGray500
+            disabledContentColor = general_gray_500
         ),
         enabled = enabled,
         elevation = null,

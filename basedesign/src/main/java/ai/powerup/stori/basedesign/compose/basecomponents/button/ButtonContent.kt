@@ -30,7 +30,6 @@ fun ButtonContent(
     ) {
         Text(
             text = text,
-            color = contentColor,
             style = Typography.body2,
         )
         if (enableIcon) {
@@ -38,7 +37,6 @@ fun ButtonContent(
                 painter = painterResource(id = R.drawable.ic_chevron_right_24px),
                 contentDescription = null,
                 modifier = Modifier.padding(start = 8.dp).width(17.dp),
-                tint = contentColor
             )
         }
     }

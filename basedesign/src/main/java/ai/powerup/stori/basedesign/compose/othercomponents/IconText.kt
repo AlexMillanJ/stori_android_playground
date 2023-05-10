@@ -1,6 +1,6 @@
 package ai.powerup.stori.basedesign.compose.othercomponents
 
-import ai.powerup.stori.basedesign.compose.theme.GeneralGray900Black
+import ai.powerup.stori.basedesign.compose.theme.general_gray_900_black
 import ai.powerup.stori.basedesign.compose.theme.Typography
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -23,7 +23,7 @@ fun IconText(
     text: String? = null,
     annotatedText: AnnotatedString? = null,
     textStyle: TextStyle = Typography.subtitle1,
-    textColor: Color = GeneralGray900Black,
+    textColor: Color = general_gray_900_black,
     resource: Int,
     iconTint: Color = LocalContentColor.current.copy(alpha = LocalContentAlpha.current),
     isIcon: Boolean = true

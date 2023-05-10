@@ -1,7 +1,7 @@
 package ai.powerup.stori.basedesign.compose.storicomponents
 
 import ai.powerup.stori.basedesign.compose.basecomponents.button.ButtonText
-import ai.powerup.stori.basedesign.compose.theme.Stori700Primary
+import ai.powerup.stori.basedesign.compose.theme.stori_700primary
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,7 +18,7 @@ fun StoriTextButton(
     ButtonText(
         modifier = modifier.height(32.dp),
         text = text,
-        contentColor = Stori700Primary,
+        contentColor = stori_700primary,
         enabled = enabled,
         enableIcon = enableIcon,
         onClick = onClick
